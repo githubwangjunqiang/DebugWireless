@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:text="zxing-扫码"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/google_code"
+        android:layout_width="wrap_content"
+        android:text="google扫码器"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/google_code2"
+        android:layout_width="wrap_content"
+        android:text="google-API"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/wiflw"
+        android:layout_width="wrap_content"
+        android:text="识别wifl"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
